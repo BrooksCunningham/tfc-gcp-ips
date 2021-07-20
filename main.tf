@@ -35,6 +35,6 @@ resource "sigsci_corp_list" "gcp_ips_list" {
   name        = "GCP IPs list"
   type        = "ip"
   description = "Outbound GCP IPs"
-#   entries = "${var.GCP_IP_LIST}"
-  entries = ["5.5.5.1","5.5.5.2"]
+  entries = "${var.GCP_IP_LIST}"
+  # entries = ["5.5.5.1","5.5.5.2"]
 }
