@@ -34,7 +34,7 @@ def main():
 
     # First create a Github instance:
     # using a personal access token
-    github_access_token = environ.get("GH_ACCESS_TOKEN")
+    github_access_token = environ.get("GITHUB_TOKEN")
     g = Github(github_access_token)
 
     # Get the repo
