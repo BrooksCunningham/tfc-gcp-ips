@@ -10,6 +10,7 @@ jobs:
   terraform:
     name: "Terraform"
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -66,6 +67,5 @@ jobs:
         run: exit 1
 
       - name: Terraform Apply
-        timeout-minutes: 1
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: terraform apply -auto-approve
