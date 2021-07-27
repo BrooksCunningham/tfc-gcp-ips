@@ -1,4 +1,4 @@
-[![get-and-update-gcp-ips-list](https://github.com/BrooksCunningham/tfc-gcp-ips/actions/workflows/python_cron.yml/badge.svg?branch=main)](https://github.com/BrooksCunningham/tfc-gcp-ips/actions/workflows/python_cron.yml)
+<!-- [![get-and-update-gcp-ips-list](https://github.com/BrooksCunningham/tfc-gcp-ips/actions/workflows/python_cron.yml/badge.svg?branch=main)](https://github.com/BrooksCunningham/tfc-gcp-ips/actions/workflows/python_cron.yml) -->
 
 # tfc-gcp-ips
 Terraform GCP IPs
